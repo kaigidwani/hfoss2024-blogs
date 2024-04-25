@@ -15,7 +15,7 @@ categories:
 author: Prosper Omiponle
 ---
 
-![EVT Logo](./assets/prosp_./assets/foss_EVT.webp)
+![EVT Logo](assets/prosp_assets/foss_EVT.webp)
 
 The pressures of group projects can be a weird dynamic to navigate. Especially as one very early in my career, it has turned out to be a constant personal experience characterized by a need to prove myself. I joined the RIT Electric Vehicle Team in August 2022. Fresh out of my first Embedded programming class which I thoroughly enjoyed; I was convinced I would easily hit the ground running and in no time, be the go-to guy for all things Firmware on the team. The class was done in pretty much 95% ARM Assembly Language and only the final Lab Exercise had a C component for the main program, but I still thought it would be straightforward to pick up the team's stack which consists of pretty much pure C++.
 

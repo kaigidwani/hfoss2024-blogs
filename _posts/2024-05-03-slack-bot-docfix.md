@@ -34,6 +34,20 @@ While trying to fix the issue, one of the main contributors closed the issue. I 
 ![image](https://github.com/ise8933/hfoss2024-blogs/assets/90360951/7f0d9fc9-d4eb-49c3-b1b6-cbfb227182aa)
 
 After resolving this small hurdle, I was officially assigned the issue and started to go down the set up steps to see if anything was missing. While adding the step was an easy fix, I did end up finding other small issues
-with the doc. For example, one of the scopes were in the wrong categories or missing in the wiki, leading to some confusion setting up the basic configurations. 
-[jekyll-docs]: https://jekyllrb.com/docs/home
+with the doc. For example, one of the scopes were in the wrong categories or missing in the wiki, leading to some confusion setting up the basic configurations. There were also a lack of images under some sections, and adding images would make it easier for a beginner to follow the instructions better. 
+The correct option to choose would be to choose "From Scatch" instead of "app Manifest". App manifest is for setting up scopes using a file that contains configurations for the user and bot scopes, name, etc for the bot app. In this case, the setup doc manually sets up the scopes, events, etc using Slack's existing UI. In the future, CHAOSS slack bot could have a new issue to make an app manifest which would save a considerable amount of time in the future. For now though, I added in the extra step below. 
+
+
+![image](https://github.com/ise8933/hfoss2024-blogs/assets/90360951/6989099d-ebcd-406c-8a4e-de25cd46f5f8)
+
+In addition to this I also added extra images under the set up events section of SETUP.md
+![image](https://github.com/ise8933/hfoss2024-blogs/assets/90360951/c4360600-3ddb-4fbc-b1aa-f28e8aa77106)
+
+
+After finishing up this issue, I proceeded to add another section under the wiki for user scopes. There were tables for bot scopes and events, but having a table for user scopes would also help. I went back to  issue [number 98](https://github.com/chaoss/chaoss-slack-bot/issues/98) and attempted to clone and contribute using the directions given. It failed to work for me, so I tagged the two contributors working on the section to add the table I made to the wiki section. 
+
+![image](https://github.com/ise8933/hfoss2024-blogs/assets/90360951/19f61f20-3377-41fc-bbc0-dce2a698344f)
+
+
+
 

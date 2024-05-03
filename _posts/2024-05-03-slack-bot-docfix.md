@@ -15,16 +15,17 @@ categories:
 author: Isha Errande 
 ---
 
-For my contribution, I decided to create this website and post this sample blog post. I decided to do this because I wanted to help provide a blogging platform for SJ to allow the students of HFOSS to have a place to submit their blog posts for the last half of the semester.
+For my contribution, I chose to contribute to the CHAOSS slack bot. The slack bot is built using bolt for javascript. The current main goal for this particular project is to make it easier for beginners to contribute. 
+I mainly did fixes to the main SETUP.md file and contributed ideas for the wiki. 
 
-This blog post can be used in several ways:
-- Reading it should provide a tutorial explaining some of the basics of how to use this blog for HFOSS students who will be adding posts to it 
-- Looking at its source code can provide a template that can be reused to help kickstart the writing of new blog posts, or to demonstrate some examples of how to use markdown
-<!-- - Demonstrate (to some extent) what a well-written, detailed blog post looks like. (That said this post will probably be longer than is expected for the actual HFOSS assignments because it may contain a lot of tutorial content)  -->
-- As documentation for any future readers who are interested in the rationale behind the existence of this site (such as Future HFOSS students, TA's, or FOSSRIT org admins)
+## Introduction to Issue 
+Back when I was trying to make a contribution for my bug fix, I contacted CHAOSS both on slack and through their github to attempt to find an issue. I originally commented under issue [number 98](https://github.com/chaoss/chaoss-slack-bot/issues/98). I got a reply after after I completed my bug fix for a seperate project. 
 
-## What is this site?
-This is a site that is built using Jekyll, a tool that allows you to build websites. It is natively supported by [GitHub pages](https://docs.github.com/en/pages) - a free website hosting service provided by GitHub. It is quite commonly used by developers to create their own personal or portfolio websites.
+![image](https://github.com/ise8933/hfoss2024-blogs/assets/90360951/2913d295-d791-4eed-9048-551cf70da592)
+
+The new issue consisted of adding a missing step within the setup doc. This is [issue 101](https://github.com/chaoss/chaoss-slack-bot/issues/101)
+![image](https://github.com/ise8933/hfoss2024-blogs/assets/90360951/f950660a-2ff9-44af-9d85-75247e00b557)
+
 
 ## Why not something else, like WordPress?
 HFOSS is a class designed to help teach some of the basics behind open source. By using git and GitHub to submit the blog posts, there are more opportunities to practice using the tools that are used by real-world projects. Additionally, the WordPress sites from previous classes are no longer around and are hard to point to as examples that are particularly positive or negative.

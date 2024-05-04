@@ -85,7 +85,7 @@ This is what the raw version of MonoGame documentation looks like. It’s diffic
 /// </remarks>
 {% endhighlight %}
 
-This also wasn’t the only comment I had to handle. SetData has 2 overloads who also have their own unique comments. It ends up looking something like (this)[https://docs.monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexBuffer.html#Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData__1_System_Int32___0___System_Int32_System_Int32_System_Int32_].
+This also wasn’t the only comment I had to handle. SetData has 2 overloads who also have their own unique comments. It ends up looking something like [this](https://docs.monogame.net/api/Microsoft.Xna.Framework.Graphics.VertexBuffer.html#Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData__1_System_Int32___0___System_Int32_System_Int32_System_Int32_).
 
 I slapped the comments into a text file and removed most of the formatting. I then had each "paragraph" in its own section, making it much easier to read and therefore edit. I noticed at this stage that the original docs author missed a couple pieces of punctuation, so I decided to add those while I was adding clarity as well.
 

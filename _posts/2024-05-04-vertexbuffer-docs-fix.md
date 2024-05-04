@@ -136,7 +136,7 @@ Luckily, one of the moderators and long-time contributors, Aristurtle, responded
 Overall, the community is fairly active with helping one another (someone even had a bingo card dedicated to FAQ's in the help channel). MonoGame user and contributor help seems to all be housed in one place, which was interesting. In the middle of me asking for help with docs, another user asked for help with physics collisions.
 
 ## Pull Request
-My Pull Request can be found [here] (https://github.com/MonoGame/MonoGame/pull/8294). There hasn't been any activity on it since I put it up, but the maintainers tend to do work during the week in the early morning, so I'm not expecting to see anything anytime soon.
+My Pull Request can be found [here](https://github.com/MonoGame/MonoGame/pull/8294). There hasn't been any activity on it since I put it up, but the maintainers tend to do work during the week in the early morning, so I'm not expecting to see anything anytime soon.
 
 ## Conclusion
 Overall, the experience was pretty similar to that of my bug fix. The maintainers didn't respond to my PR and given that there's higher-priority tasks going on right now, that's fine by me. I asked the community for assistance this time and did actually end up getting some help out of that after about a day or so. 

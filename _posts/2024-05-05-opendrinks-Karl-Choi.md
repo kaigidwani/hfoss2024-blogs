@@ -18,7 +18,7 @@ author: Karl Choi
 # What the project is
 
 Opendrinks is a website that hosts recipes of drinks contributed by the community.
-The community mostly works together to add new drinks or improve the website.
+Contributors help by adding new drinks or improvements to the website.
 ![Site Image](https://i.imgur.com/2EKb1uK.png)
 
 # Why I picked it

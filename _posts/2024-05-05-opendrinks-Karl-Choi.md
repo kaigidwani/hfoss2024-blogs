@@ -53,7 +53,7 @@ Contributions to Open Drinks are mainly new drink recipes, so the contribution I
 
 # How I went about pursuing it
 
-I read the contributing doc on the Github for what code format I should adhere to when making a new contribution. I then went looking on the internet for a good, reputable, and positively received Jasmine Milk Tea recipe. This was actually harder than I thought it would be, since most of the recipes had very little reviews (5 or less) while others didn't have specific measurements for the ingredients.  
+I read the contributing doc on the Github for what code format I should adhere to when making a new contribution. I then went looking on the internet for a good, reputable, and positively received Jasmine Milk Tea recipe. This was actually harder than I thought it would be, since most of the recipes had very little reviews [5 or less] while others didn't have specific measurements for the ingredients.  
 ![Lack of reviews](https://i.imgur.com/GOpGIXc.png)  
 ![Lack of reviews 2](https://i.imgur.com/L832qFk.png)
 

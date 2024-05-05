@@ -17,7 +17,7 @@ author: Karl Choi
 
 # What the project is
 
-Opendrinks is a website that hosts recipes of drinks contributed by the community.
+Open Drinks is a website that hosts recipes of drinks contributed by the community.
 Contributors help by adding new drinks or improvements to the website.
 ![Site Image](https://i.imgur.com/2EKb1uK.png)
 
@@ -48,7 +48,7 @@ Contributors help by adding new drinks or improvements to the website.
 
 # The contribution I picked
 
-Contributions to the OpenDrinks are mainly new drink recipes, so the contribution I picked was a recipe for Jasmine Milk Tea.  
+Contributions to Open Drinks are mainly new drink recipes, so the contribution I picked was a recipe for Jasmine Milk Tea.  
 ![Jasmine Milk Tea](https://i.imgur.com/0YvLjur.png)
 
 # How I went about pursuing it

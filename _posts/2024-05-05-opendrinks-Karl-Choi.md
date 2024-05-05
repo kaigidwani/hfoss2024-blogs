@@ -64,5 +64,8 @@ In the end, I found a YouTube video with around 11k views, and a good like/disli
 
 I filled out the template that was provided and submitted a pull request which passed all 4 automated checks, so I'm currently waiting for that to be merged. Due to the lack of activity in the server, I don't expect it to be merged anytime soon. However, I do believe it will be merged/seen eventually due to the maintainer activity pattern previously mentioned. There are only 8 open pull requests (including mine) and 1,300+ closed pull requests, so pull requests do seem to be reviewed.  
 
+# The Code
+![Code](https://i.imgur.com/hcEqPXZ.png)
+
 # My Pull Request
 ![PR](https://i.imgur.com/ceJd2XP.png)  

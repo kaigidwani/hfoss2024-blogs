@@ -31,19 +31,19 @@ Contributors help by adding new drinks or improvements to the website.
 
 # Comm Arch Analysis
 
-- The last commit was 4 months ago, so the project isn't that active. However, from the commit history, the maintainer has taken multiple 4-6 month breaks before (over a 5 year period), so the project probably isn't dead.  
+- The last commit was 4 months ago, so the project isn't that active. However, from the commit history, the maintainer has taken multiple 4-6 month breaks before (over a 5-year period), so the project probably isn't dead.  
 ![Last commit](https://i.imgur.com/OKfA4xC.png)  
 
-- There are over 500 contributors  
+- There are over 500 contributors.  
 ![Contributors](https://i.imgur.com/8n70TCH.png)  
 
 - The contribution doc was detailed, included a code template, and explained step by step how to contribute.  
 ![Contribution Doc](https://i.imgur.com/j5BclUC.png)  
 
-- The project has a license, readme, and code of conduct  
+- The project has a license, readme, and code of conduct.  
 ![Important docs](https://i.imgur.com/fMJxNxz.png)  
 
-- There have been over 1300 closed pull requests, so the project does seem to accept many contributions [good for contributors]  
+- There have been over 1300 closed pull requests, so the project does seem to accept many contributions [good for contributors].  
 ![Pull Requests](https://i.imgur.com/9X8cvvt.png)
 
 # The contribution I picked
@@ -53,7 +53,7 @@ Contributions to Open Drinks are mainly new drink recipes, so the contribution I
 
 # How I went about pursuing it
 
-I read the contributing doc on the Github for what code format I should adhere to when making a new contribution. I then went looking on the internet for a good, reputable, and positively received Jasmine Milk Tea recipe. This was actually harder than I thought it would be, since most of the recipes had very little reviews [5 or less] while others didn't have specific measurements for the ingredients.  
+I read the contributing doc on the GitHub for what code format I should adhere to when making a new contribution. I then went looking on the internet for a good, reputable, and positively received Jasmine Milk Tea recipe. This was actually harder than I thought it would be, since most of the recipes had very little reviews [5 or less] while others didn't have specific measurements for the ingredients.  
 ![Lack of reviews](https://i.imgur.com/GOpGIXc.png)  
 ![Lack of reviews 2](https://i.imgur.com/L832qFk.png)
 

@@ -33,8 +33,8 @@ The same two maintainers I saw on my bug fix have also interacted with this issu
 
 I commented on the issue thread and started the process of improving the lack of documentation.
 
-![Issue by georg-eckert-zeiss describing lack of detail in examples for Set Data in Vertex Buffer for MonoGame] (../assets/2024-05-04-Allen/Issue#7396.png)
-![Response from h3allen stating interesting in solving the issue and adding clarity to the docs] (../assets/2024-05-04-Allen/InterestPost.png)
+![Issue by georg-eckert-zeiss describing lack of detail in examples for Set Data in Vertex Buffer for MonoGame](../assets/2024-05-04-Allen/Issue#7396.png)
+![Response from h3allen stating interesting in solving the issue and adding clarity to the docs](../assets/2024-05-04-Allen/InterestPost.png)
 
 ### Searching for the Source of the Docs
 The biggest initial hurdle was figuring out where MonoGame actually stores their documentation. After doing a little digging and finding a single issue post that mentioned the way MonoGame handles documentation in passing (which is… a bad sign), I found that MonoGame creates their docs from… the XML headers in their code… Which is, in my opinion, an interesting choice. It makes the comments within the code unwieldy, especially the examples. It also explains why most users I know complain about how insufficient and difficult to understand the MonoGame documentation is.
@@ -129,9 +129,15 @@ After attempting for a few hours and asking Silas for some help since they'd don
 ### Asking for Help
 Since I couldn't figure out how to actually generate the documentation I needed, it was time to head into MonoGame's Discord server and ask for an answer. Allegedly there were other people in there that could lend me a hand as they'd been helping with the documentation as well.
 
+![Message from greembeems in discord describing issue with building documentation for MonoGame](../assets/2024-05-04-Allen/CryForHelp.png)
+
 The first person to respond told me where documentation was gereated from, the XML comments. That wasn't all too helpful since I'd already figured that out several days prior. They admitted they actually didn't know all that much about what I was trying to work on. 
 
+![Reply from paperClip stating they are unfamiliar with the local build process for docs](../assets/2024-05-04-Allen/UnhelpfulResponse.png)
+
 Luckily, one of the moderators and long-time contributors, Aristurtle, responded with a detailed guide and links for what I needed. They'd also responded on my last PR about some changes I could make to improve what I'd proposed! He also mentioned giving the maintainers a heads up that the README in the documentation repo was wrong. Hopefully that change happens soon so they're not getting asked again.
+
+![Reply from Aristurtle with links and detailed instructions on how to build and a promise to ask maintainers to fix the build docs](../assets/2024-05-04-Allen/HelpfulResponse.png)
 
 Overall, the community is fairly active with helping one another (someone even had a bingo card dedicated to FAQ's in the help channel). MonoGame user and contributor help seems to all be housed in one place, which was interesting. In the middle of me asking for help with docs, another user asked for help with physics collisions.
 

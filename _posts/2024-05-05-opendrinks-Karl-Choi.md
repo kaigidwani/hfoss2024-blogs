@@ -48,7 +48,7 @@ The community mostly works together to add new drinks or improve the website.
 
 # The contribution I picked
 
-Contributions to the OpenDrinks are mainly new drink recipes, so the contribution I picked was a recipe for Jasmine Milk Tea.
+Contributions to the OpenDrinks are mainly new drink recipes, so the contribution I picked was a recipe for Jasmine Milk Tea.  
 ![Jasmine Milk Tea](https://i.imgur.com/0YvLjur.png)
 
 # How I went about pursuing it

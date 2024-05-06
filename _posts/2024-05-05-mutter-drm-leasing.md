@@ -61,11 +61,14 @@ This can be difficult to look at so I created a simplified flowchart here:
 The last hurdle was learning to use GLib/GObject, but that turned out to be fairly easy as it has great [documentation](https://docs.gtk.org/glib/), and I ended up really enjoying using it.
 
 With some fairly minor edits I was able to hack at the Wayland protocol implementation until the SteamVR error message about not having the DRM lease protocol subsided... but I was struck by a different issue:
-![SteamVR Shared IPC Compositor Init Failed](../assets/2024-05-05/mutter-drm-leasing/steamvr-error.png)
-It turns out that just before I started working on the implementation Valve had launch version 2.0 of SteamVR, and some things were broken on Linux. Joshua Ashton (Valve) notified me that That meant I had to find a new way to test my implementation, which led me to [kmscube](https://gitlab.freedesktop.org/mesa/kmscube).
+![SteamVR Shared IPC Compositor Init Failed](../assets/2024-05-05-mutter-drm-leasing/steamvr-error.png)
+Joshua Ashton (Valve) notified me that just before I started working on the implementation Valve had launch version 2.0 of SteamVR and some things were broken on Linux, but they were aware of it.
+![Joshua Ashton's response](../assets/2024-05-05-mutter-drm-leasing/joshua-ashton-response.png)
+
+That meant I had to find a new way to test my implementation, which led me to [kmscube](https://gitlab.freedesktop.org/mesa/kmscube).
 
 Kmscube is an example bare metal graphics demo application (as in it directly outputs to the connected display). The only problem is that it did not have a DRM lease protocol implementation, so I would have to implement it myself. I was able to add a few command line options to select that the DRM file descriptor should come from a lease, and then I just had to [write the Wayland client implementation](https://gitlab.freedesktop.org/bbatson/kmscube/-/tree/drm-leasing). Luckily after writing the server implementation I was pretty comfortable with the protocol, and my implementation did not have to be robust. Just leasing the first available connector would be enough. So I completed my barebones implementation and tested it first on Sway to ensure it would work with an existing protocol implementation, then with my modified mutter to check my implementation. Luckily it worked essentially first try, and I had graphics!
-![Picture of kmscube running in the headset](../assets/2024-05-05/mutter-drm-leasing/kmscube.png)
+![Picture of kmscube running in the headset](../assets/2024-05-05-mutter-drm-leasing/kmscube.png)
 (This is a picture of kmscube running in the headset, kmscube makes a spinning rainbow cube you can see the corner of it in this image)
 
 There were some bugs like the wrong CRTC being chosen but I was able to iron everything out before long and got a functioning, if very janky, implementation. I submitted my changes as a [merge request](https://gitlab.gnome.org/orowith2os/mutter/-/merge_requests/1) to Dallas Strouse's branch, but due to all the disagreements happening in the main issue they closed their branch and I did not have time to follow up so things just sat dormant for a while.

@@ -14,13 +14,16 @@ categories:
 # Enter your name below
 author: Weijie Ye
 ---
+
+# Why stick with Wincuts
+I chose the same project for my Contribution as I did for my Bug Fix because I'm familiar with it. I worked on this project for my bug fix, and the project owner responded to me very quickly. There are several issues in this project that I also have the ability to complete, so I decided to work on Wincuts again for my contribution.
 # What is Wincuts
 
 [Project Website](https://lyubomirt.github.io/wincuts/pages/download.html)
 
 [GitHub Page](https://github.com/LyubomirT/wincuts)
 
-WinCuts is a Windows native (via Qt) tool for easily setting up and managing custom keyboard shortcuts. It's designed for usage simplicity and is aimed at anyone who wants to save time and increase productivity by using keyboard shortcuts.
+WinCuts is a Windows native (via Qt) tool for easily setting up and managing custom keyboard shortcuts. It's designed for simple usage and is aimed at anyone who wants to save time and increase productivity by using keyboard shortcuts.
 
 # How it works
 As of now, WinCuts lets you set up custom keyboard shortcuts for running shell/cmd commands that get launched whenever the shortcut is activated. It's useful if you need to launch specific commands frequently and want to save time by using a keyboard shortcut instead of typing the command every single time.
@@ -36,7 +39,7 @@ Since this is a relatively new project, there are few participants, but the proj
 One negative side of this project is the need for more documentation. This does make it difficult to understand the project at the beginning, but since this is a small project and the task I chose to do didn't interact too much with the main part of the software itself, this didn't cause too many problems when I was developing.
 
 # The Issue
-The issue I investigated in this project was Creating a help button inside the app. As the creator mentioned, many users won't go deep diving to try to find the repository's README; a simple Help button should work way better.
+The issue I worked on in this project was Creating a help button inside the app. As the creator mentioned, many users won't go deep diving to try to find the repository's README; a simple Help button should work way better.
 [issue](https://github.com/LyubomirT/wincuts/issues/2)
 
 ![wincutContributeIssue](https://github.com/wy8933/hfoss2024-blogs/assets/112401719/40334375-e7b3-4ed7-9392-dba93feeb7fa)

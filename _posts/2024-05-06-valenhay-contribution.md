@@ -27,7 +27,7 @@ author: Valen Hay
 
 ## **Contributing**
 ### What resources Were Already Available:
-Autogen has lots of **user resources** [here](https://docs.keyshade.xyz/) and a contributor guide [here](https://github.com/keyshade-xyz/keyshade/blob/develop/CONTRIBUTING.md).  It uses the Mozilla Public License [License](https://github.com/keyshade-xyz/keyshade/blob/develop/LICENSE) and has its own [Code of Conduct] (https://github.com/keyshade-xyz/keyshade/blob/develop/CODE_OF_CONDUCT.md)
+Autogen has lots of **user resources** [here](https://docs.keyshade.xyz/) and a contributor guide [here](https://github.com/keyshade-xyz/keyshade/blob/develop/CONTRIBUTING.md).  It uses the Mozilla Public License [License](https://github.com/keyshade-xyz/keyshade/blob/develop/LICENSE) and has its own [Code of Conduct](https://github.com/keyshade-xyz/keyshade/blob/develop/CODE_OF_CONDUCT.md)
 
 ## **The Issue**
 ### How I Picked My Issue And What It Was:

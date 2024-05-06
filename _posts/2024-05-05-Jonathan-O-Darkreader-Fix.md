@@ -20,7 +20,7 @@ author: Jonathan Orth
 ### What is Dark Reader?
 Dark Reader is a open-source web browser extension, primary for Chrome and Firefox-based browser. The main purpose of the extension is to apply a 'dark theme' to websites that usually do not, in order to provide a page that's easier on the eyes for users browsing in dark environments. It does this by dynamically augmenting the page's CSS, changing the color of elements (making the background dark and text light for example), and/or by inverting the color of elements (usually images). Additionally, Dark Reader applies community written fixes when the "Dynamic Mode" doesn't get everything right.
 
-![darkreader mascot](../assets/2024-05-05-Jonathan-O-Darkreader-Fix/darkreader-mascot.png/)
+![darkreader mascot](../assets/2024-05-05-Jonathan-O-Darkreader-Fix/darkreader-mascot.png)
 
 ### Why this project?
 I chose Dark Reader for a few different reasons. Firstly, it's a project that I now personally use, after hearing about it for a few years I was finally prompted to use it after the Comm Arch presentation done it class, and have been very pleased with it. Additionally, after spending a lot of time looking for projects that I could effectively contribute to (as many were beyond the scope of my skills), the large amount of issues on their GitHub page and relatively low complexity seemed like a good first-issue for me to tackle.
@@ -34,29 +34,29 @@ There were a few different provided rules and tools to help me get started. Firs
 ## The Issue
 The issue I chose was for a broken website, and after some browser over a couple days I found issue #12655, for the website revolver.news and decided it was a good fit. On the main page of the site, the titles of the articles had a color that was very similar to that of the background, making them diffucult to read. joewinke, the user who opened the issue, had already tried to fix it themselves using the dev tools, but was unsucessful.
 
-![issue #12655 from the dark reader github](../assets/2024-05-05-Jonathan-O-Darkreader-Fix/revolver-issue.png/)
+![issue #12655 from the dark reader github](../assets/2024-05-05-Jonathan-O-Darkreader-Fix/revolver-issue.png)
 
 ## The Fix
 
 When I first started diving into the issue using the dark reader and chrome dev tools, I ran into the same issue as joewinke, in which my selected elements were not accepting my new color changes which I spent a fair amount of time attempting to work past, investigating deeper into the existing CSS. But in the end I opted to simply invert the color of the text elements that were causing me issues.
 
-![fix in darkreader dev tools](../assets/2024-05-05-Jonathan-O-Darkreader-Fix/revolver-dev.png/)
+![fix in darkreader dev tools](../assets/2024-05-05-Jonathan-O-Darkreader-Fix/revolver-dev.png)
 
 ### Result
 
 revolver.news before
 
-![revolver.news before the fix](../assets/2024-05-05-Jonathan-O-Darkreader-Fix/revolver-before.png/)
+![revolver.news before the fix](../assets/2024-05-05-Jonathan-O-Darkreader-Fix/revolver-before.png)
 
 revolver.news after
 
-![revolver.news before the fix](../assets/2024-05-05-Jonathan-O-Darkreader-Fix/revolver-after.png/)
+![revolver.news before the fix](../assets/2024-05-05-Jonathan-O-Darkreader-Fix/revolver-after.png)
 
 ## Adoption
 
 I created my Pull Request and as of now (May 5th, 2024), it is still curently open and pending.
 
-![pull request for the issue on github](../assets/2024-05-05-Jonathan-O-Darkreader-Fix/revolver-pr.png/)
+![pull request for the issue on github](../assets/2024-05-05-Jonathan-O-Darkreader-Fix/revolver-pr.png)
 
 ## Conclusion
 

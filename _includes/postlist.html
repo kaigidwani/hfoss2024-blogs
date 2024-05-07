@@ -4,8 +4,16 @@
 	}
 </style>
 
-{% if include.filter-by == "category" %}
-	{% assign group = site.categories %}
+{% assign group = site.categories %}
+
+
+{% if include.source and include.source != "" and include.source != nil %}
+
+	{% assign postlist = group[include.source] %}
+	{% include postshowcase.html posts=postlist %}
+
+{% else %}
+
 	{% for item in group %}
 		{% assign item_name = item | first %}
 

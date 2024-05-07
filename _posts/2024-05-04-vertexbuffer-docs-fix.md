@@ -33,7 +33,7 @@ The same two maintainers I saw on my bug fix have also interacted with this issu
 
 I commented on the issue thread and started the process of improving the lack of documentation.
 
-![Issue by georg-eckert-zeiss describing lack of detail in examples for Set Data in Vertex Buffer for MonoGame](../assets/2024-05-04-Allen/Issue#7396.png)
+![Issue by georg-eckert-zeiss describing lack of detail in examples for Set Data in Vertex Buffer for MonoGame](../assets/2024-05-04-Allen/Issue7396.png)
 ![Response from h3allen stating interesting in solving the issue and adding clarity to the docs](../assets/2024-05-04-Allen/InterestPost.png)
 
 ### Searching for the Source of the Docs

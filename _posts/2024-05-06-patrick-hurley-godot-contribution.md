@@ -54,7 +54,7 @@ I created my [pull request](https://github.com/godotengine/godot/pull/91571) on 
 The change itself was so simple that I could've just hit the commit suggestion button in the pull request's page, but I wanted to pull only one commit into the main repo, like the contribution guidelines asked.
 ![contriution rules-one commit please](../assets/2024-05-06-patrick-hurley-godot-contribution/commit-etiquette.png)
 
-I made a second commit that changed the wording, then tried to rebase and squash my second commit into the first.  Honestly, I'm not sure why this didn't work, but there were still multiple commots in my PR, so I ended up deleting the extra commits via `git push --force` and amending the first one through Visual Studio 2022's UI.
+I made a second commit that changed the wording, then tried to rebase and squash my second commit into the first.  Honestly, I'm not sure why this didn't work, but there were still multiple commits in my PR, so I ended up deleting the extra commits via `git push --force` and amending the first one through Visual Studio 2022's UI.
 ### Conclusion
 My pull request was successfully merged into the master branch this morning!  All in all, Godot was a fun project to contribute to.  The project has thorough documentation, the maintainers are very active, and I'm glad I got the chance to contribute to the project.
 ![feedback recieved](../assets/2024-05-06-patrick-hurley-godot-contribution/merged.png)

@@ -18,15 +18,14 @@ author: Prosper Omiponle
 ![EVT Logo](../assets/2024-04-21-Prosper_Contribution/foss_EVT.webp)
 <br>
 
-The pressures of group projects can be a weird dynamic to navigate. Especially as one very early in my career, it has turned out to be a constant personal experience characterized by a need to prove myself. I joined the RIT Electric Vehicle Team in August 2022. Fresh out of my first Embedded programming class which I thoroughly enjoyed; I was convinced I would easily hit the ground running and in no time, be the go-to guy for all things Firmware on the team. The class was done in pretty much 95% ARM Assembly Language and only the final Lab Exercise had a C component for the main program, but I still thought it would be straightforward to pick up the team's stack which consists of pretty much pure C++.
-
-Suffice to say, that hasn't ended up being the case. However, I've developed a couple features, and done a few bug fixes (That I'm proud of!), so here's my two experience working on a specific bug I fixed last year.
+In my last blog post, I mentioned how being very early in my career, my personal experience has been characterized by a need to prove myself. In the Spring of 2023, a good chunk of my time was spent working on the RIT Electric Vehicle Team, and my previous blog post highlighted my very first pull request in the team's repo. It was pretty small, but it introduced me to the workflow on the team and helped me get going with tackling bigger tasks on the team.
+In this entry, I'll dive into one of (if not the) greatest contribution I've made to the team thus far, as it actually ended up being used on the final electric bike (!); the REV1 (Road Electric Vehicle mark 1).
 
 ![Figure 1](../assets/2024-04-21-Prosper_Contribution/foss_Fig1.webp)
 <br>
-Figure 1: Summary clip of Bug Fix
+Figure 1: Summary clip of Final Contribution
 
-I will start by stating the preliminaries - I chose this project simply because it is something I have worked on for a little while now and already have pre-existing knowledge of. I didn't use my Comm Arch experience to determine whether it would be good to work with, however, I did run a Caudron scan on the overall repo, producing data from which we can see that the activity (during the school year since it is a school project) is pretty high and fairly stable.
+ I chose this project having worked on the team for a while and possesing a pre-existing knowledge of the codebase. I didn't use my Comm Arch experience to determine whether it would be good to work with, however, I ran Caudron scan on the overall repo which I displayed in my previous post, and it is included here again, showing that the activity (during the school year since it is a school project) is pretty high and fairly stable.
 
 ![Figure 2](../assets/2024-04-21-Prosper_Contribution/foss_Fig2.webp)
 <br>

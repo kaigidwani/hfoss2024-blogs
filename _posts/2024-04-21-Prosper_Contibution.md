@@ -7,8 +7,8 @@ title:  "Bug Fix Contribution: Electric Vehicle Team"
 
 # Uncomment only one of the below categories
 categories: 
-- Bug Fix
-#- Contribution
+# - Bug Fix
+- Contribution
 
 
 # Enter your name below

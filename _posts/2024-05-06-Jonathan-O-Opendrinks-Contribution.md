@@ -25,7 +25,7 @@ For my contribution I wanted to try doing something on a slightly larger scale, 
 
 Open Drinks is a open-source repository and website that catalogs user-submitted drink recipes, which can be then be browsed and searched for based on keywords. The project was created as part of Hacktoberfest 2019, and has maintained a somewhat active status since, additionally participating in Hacktoberfest 2020 and 2021. Users can contribute new recipes to the page by forking the repository, adding new .json files to the ../recipies folder, and then creating a new pull request to add it to the main site.
 
-![open drinks logo ](../assets/2024-05-06-Jonathan-O-Opendrinks-Contribution/opendrinks-logo.png)
+![open drinks logo](../assets/2024-05-06-Jonathan-O-Opendrinks-Contribution/opendrinks-logo.png)
 
 ### Why did I choose it?
 
@@ -35,21 +35,21 @@ I decided to contribute to this project for a few different reasons. Firstly, wh
 
 Coming from our comm arch presentations there were a few different things I looked at for this project, before deciding to contribute to it. Firstly was the contributions over time. The most recent contribution to the project was about 4 months ago on January 2nd, 2024 meaning that the project is not currently very active. However, looking at the total contributions there has been a consitent amount since the project was initially created with several large 4-6 months gaps, meaning it is not dead persay.
 
-!image[]()
+![contribution graph for the open drinks github page](../assets/2024-05-06-Jonathan-O-Opendrinks-Contribution/opendrinks-graph.png)
 
 I additonally looked into the project's releases and documentation. There were several different releases, each marking a different milestone of the Hacktoberfest of that year.
 
-!image[]()
+![example of releases of the open drinks project](../assets/2024-05-06-Jonathan-O-Opendrinks-Contribution/opendrinks-releases.png)
 
 There was also sufficent documentation, including code of conduct, contribution practices, and their license availible.
 
-!image[]()
+![availible documentation and written standards for open drinks](../assets/2024-05-06-Jonathan-O-Opendrinks-Contribution/opendrinks-docs.png)
 
 ### Existing Resources
 
 As previously mentioned, there is a fair amount of help written resources for new users, primarily a 'Contributing.md' which outlines how to go about adding new recipies to the site, including an example/template of how to fill out a new one. Additional, the file also contains instructions on how to add new unit tests.
 
-!image[]()
+![instructions for contributing recipes](../assets/2024-05-06-Jonathan-O-Opendrinks-Contribution/opendrinks-contributing.png)
 
 ## The Contribution
 
@@ -65,18 +65,20 @@ I think that both my bug fix and my contribution are largely similar in complexi
 
 When writing my recipe contribution, I first found the original description of the drink off of the resturant's menu. Sicne this is only a description of the ingredients, with no quanities or directions, I then used similar drink recipes and procedures I either knew already or found online in order to create the final recipe.
 
-!image[]()
+![orignal drink description from menu](../assets/2024-05-06-Jonathan-O-Opendrinks-Contribution/opendrinks-menu.png)
 
 ### The Code
 
 With my recipe in hand, I created a fork of the original repository, created my new .json file and filled out my information and instructions, and added my image to the designated folder. Once I was done I created my pull request.
 
-!image[]()
+![.json for the new recipe](../assets/2024-05-06-Jonathan-O-Opendrinks-Contribution/opendrinks-json.png)
 
 ### Adoption
 
-As of today (May 6th, 2024) my pull request is still open and awaiting approval. Given the current state and activity of the project I imagine that it won't be resolved anytime soon, but I hope that when the maintainer returns to the project it will be accepted without issue.
+As of today (May 6th, 2024) my pull request is still open and awaiting approval. It has already passed all of the automatic workflow checks. Given the current state and activity of the project I imagine that it won't be resolved anytime soon, but I hope that when the maintainer returns to the project it will be accepted without issue.
 
-!image[]()
+![pull request for the new recipe](../assets/2024-05-06-Jonathan-O-Opendrinks-Contribution/opendrinks-pr.png)
 
 ## Conclusion
+
+Overall, I found this to be a very positive experience, since my bug fix I've been getting more comfortable with the process of making new contributions to projects. Additionally, I think due to the less active status of this project, as well as the confidence in my contribution, the process caused a lot less anxiety for me than the first. Contributing to Open Drinks was fun and something I would definitely like to revisit in the future given the oppritunity. You can find my [pull request here](https://github.com/alfg/opendrinks/pull/1407) if interested.

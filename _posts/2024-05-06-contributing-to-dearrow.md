@@ -28,6 +28,7 @@ I found DeArrow on Youtube around December of last year, and decided to give the
 This extension allows for the easy renaming of titles through a ui that opens within youtube, allowing for all users to contribute easily. 
 
 ![screenshot of DeArrow renaming ui](../assets/2024-05-06-contributing-to-dearrow/dearrow-ui-example.png)
+
 This allows for users to easily contribute to the project, leading to the editing of 156,000 titles and 77,000 thumbnails by 15,000 users. 
 
 ![screenshot of stats](../assets/2024-05-06-contributing-to-dearrow/dearrow-stats.png)

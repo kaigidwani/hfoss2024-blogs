@@ -51,11 +51,11 @@ For my first draft, I made a few changes with some inconsistencies to learn the 
 
 Here, I have many issues trying to debug the Visual Studio solution. I received a multitude of error messages, including issues with Windows SDK and .NET version differences. After meeting with Adrian, I was eventually able to launch the solution on my laptop. This is when I noticed no change within the program.
 
-![error pop-up message after editing retail_colors.xml](../assets/2024-04-21-schneider/error-message.png)
+![error pop-up message after editing retail_colors.xml](../assets/2024-04-21-schneider/error-message.jpg)
 
 After fiddling with the UI some more, I found a label titled "Xenoblade Grips". Knowing that the word Xenoblade was unlikely to be used frequently, I searched the project for the word and found the correct file, named "frmJoyConColorPicker.cs". Using the foundations for color slots 17-20 and 25-28 left in the C# source code file, I added the labels and RGB codes for the eight new pastel colors.
 
-![edit to frmJoyConColorPicker.cs code](../assets/2024-04-15-schneider/code-snippet-3.jpg)
+![edit to frmJoyConColorPicker.cs code](../assets/2024-04-21-schneider/code-snippet-3.jpg)
 ![my new version of the color select screen](../assets/2024-04-21-schneider/retail-color-2.jpg)
 
 Once ensuring my bug fix worked, I pushed my changes to my GitHub fork, and created a pull request to merge my project with the main branch by CTCaer. While I do not expect the changes to be merged (abandoned project), you can see the pull request below.

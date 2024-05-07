@@ -14,7 +14,7 @@ author: Patrick Hurley
 ---
 
 ## What is Godot?
-Godot is an open-source game development engine that is maintained by a small group of people who oversee and approve all issues and pull requests. Godot uses its own unique language called GDScript, which is similar to Python, but it also supports c# usage with the .net version. It has come more into the spotlight recently with Unity's monetization changes this past fall.
+Godot is an open-source game development engine for both 2d and 3d games.  The project is a stadium, and was made as a closed source game dev engine back in 2001, remaining closed source until 2014 wwhen it adopted the MIT license.
 
 ![godot logo](../assets/2024-05-06-patrick-hurley-godot-contribution/godot-logo.webp)
 

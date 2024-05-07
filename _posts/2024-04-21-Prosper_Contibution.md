@@ -7,8 +7,10 @@ title:  "Bug Fix Contribution: Electric Vehicle Team"
 
 # Uncomment only one of the below categories
 categories: 
+
 # - Bug Fix
 - Contribution
+
 
 
 # Enter your name below
@@ -16,7 +18,9 @@ author: Prosper Omiponle
 ---
 
 ![EVT Logo](../assets/2024-04-21-Prosper_Contribution/foss_EVT.webp)
+
 <br>
+
 
 The pressures of group projects can be a weird dynamic to navigate. Especially as one very early in my career, it has turned out to be a constant personal experience characterized by a need to prove myself. I joined the RIT Electric Vehicle Team in August 2022. Fresh out of my first Embedded programming class which I thoroughly enjoyed; I was convinced I would easily hit the ground running and in no time, be the go-to guy for all things Firmware on the team. The class was done in pretty much 95% ARM Assembly Language and only the final Lab Exercise had a C component for the main program, but I still thought it would be straightforward to pick up the team's stack which consists of pretty much pure C++.
 

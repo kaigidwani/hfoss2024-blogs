@@ -14,7 +14,7 @@ author: Patrick Hurley
 ---
 
 ## What is Godot?
-Godot is an open-source game development engine for both 2d and 3d games.  The project is a stadium, and was made as a closed source game dev engine back in 2001, remaining closed source until 2014 wwhen it adopted the MIT license.
+Godot is an open-source game development engine for both 2d and 3d games.  The project is a stadium, and was made as a closed source game dev engine back in 2001, remaining closed source until 2014 when it adopted the MIT license.  It supports three different programming languages, C#, C++, and GDScript, which is Godot's own language, and can export to most non-console platforms.
 
 ![godot logo](../assets/2024-05-06-patrick-hurley-godot-contribution/godot-logo.webp)
 
@@ -40,7 +40,7 @@ I started looking for an issue in the [godot-docs](https://github.com/godotengin
 This contribution actually has a lot in common with my bug fix.  For starters, both are documentation improvements.  They're also both for game engines, though the contribution is for Godot, not Monogame.  This issue was less thorough in its explanations, though, so I had to do a few hours more research into the project to really get an in-depth feel of what was going on.
 
 ### My initial plan for contributing
-My initial plan was to clone the [godot-docs](https://github.com/godotengine/godot-docs) repo and modify one of the file that the resource loader documentation webpage was built from, [resourceloader.rst](https://github.com/godotengine/godot-docs/blob/master/classes/class_resourceloader.rst), and then to create a pull request there.  I referenced the open source project Sphinx ([Documentation](https://www.sphinx-doc.org/en/master/)), that Godot uses to build its documentation, to learn the syntax of the .rst file before I began.
+My initial plan was to clone the [godot-docs](https://github.com/godotengine/godot-docs) repo and modify one of the files that the resource loader documentation webpage was built from, [resourceloader.rst](https://github.com/godotengine/godot-docs/blob/master/classes/class_resourceloader.rst), and then to create a pull request there.  I referenced the open source project Sphinx ([Documentation](https://www.sphinx-doc.org/en/master/)), that Godot uses to build its documentation, to learn the syntax of the .rst file before I began.
 
 ### Expectations, meet reality
 After forking the [godot-docs](https://github.com/godotengine/godot-docs) repo and doing all of my work, I stumbled upon another page in Godot's documentation, the [guidelines for updating the class reference](https://docs.godotengine.org/en/latest/contributing/documentation/updating_the_class_reference.html#doc-updating-the-class-reference).  These guidelines say, in no uncertain words:

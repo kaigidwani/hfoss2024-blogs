@@ -34,7 +34,7 @@ The Society of Software Engineering website was very useful to me as a freshman 
 
 ## Specific Designs I made
 The designs that I did make were unfortunately not merged into the actual website, since I did leave early in the process creating the new look of the pages. Despite that, here was what I was working on before leaving. 
-![Picture depicting a very early protoype](assets/2024-05-06-SSE-Contribution-kristenfang/mentorpage.png)
+![Picture depicting a very early protoype](../assets/2024-05-06-SSE-Contribution-kristenfang/mentorpage.png)
 
 ## Why did I leave
 I ended up leaving this project due to being busy from other schoolwork and unable to make the meetings on the weekend.

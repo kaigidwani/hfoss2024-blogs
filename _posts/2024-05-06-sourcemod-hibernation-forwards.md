@@ -36,15 +36,21 @@ Hibernation is when the server goes into a state where it only runs a frame when
 I saw that there was already a hook for ServerHibernationUpdate in playermanager.cpp and asked on the SourceMod Discord if it would be a good idea to put the new forward in there. Here's my message:
 
 > Hello, 
+>
 > I am interested in adding the OnServerHibernate() forward as detailed in https://github.com/alliedmodders/sourcemod/issues/1483.
+>
 > I don't think OnServerHibernate_Post() is practical to implement, as by the time hibernation has started CServerPluginCallbacks::GameFrame will no longer be called.
+>
 > The easiest way to implement the forward would be to add the call to the forward in PlayerManager::OnServerHibernationUpdate(bool bHibernating) as it gets called from CGameServer::SetHibernating as it hooks CServerGameDLL::ServerHibernationUpdate .
+>
 > My question is: would it be proper to add it within PlayerManager::OnServerHibernationUpdate and PlayerManager::OnSourceModAllInitialized, or would it make more sense to split it off to its own method?
+>
 > Thank you.
 
 I got a reply from psychonic, a SourceMod developer:
 
 > I think adding in the spots you mentioned makes the most sense
+>
 > That's roughly how the other server lifecycle forwards are handled (OnMapStart, etc)
 
 # The Initial Pull Request

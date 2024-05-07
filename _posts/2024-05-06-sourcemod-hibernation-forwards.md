@@ -159,7 +159,7 @@ Based on this feedback, I updated the documentation to better explain what the `
 
 KaelaSavia then suggested a different approach:
 
-![Discord suggestion for two forwards](../assets/2024-05-06-sourcemod-hibernation-forwards/discord_two_forwards.png)
+![GitHub suggestion for two forwards](../assets/2024-05-06-sourcemod-hibernation-forwards/github_two_forwards.png)
 
 I liked this idea, so I updated the pull request to have two separate forwards, `OnServerEnterHibernation` and `OnServerExitHibernation`, instead of a single forward with a boolean parameter. Here's the new diff:
 

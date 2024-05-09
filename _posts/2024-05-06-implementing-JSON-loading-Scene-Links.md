@@ -23,9 +23,9 @@ Before I added my fix for the JSON, the person who invited me onto this project 
 
 ## The Contribution
 I added a little fixed floating legend in the bottom right hand corner of the graph. That was relatively simple to do, as I just needed to grab the color IDs of the different labels on the graph and add them to a list. Unfortunately, I had problems with getting the correct color matching with my text, but it's fine for now. As for the JSON, I had to delete all of the muck that was already in canvasGraph so that I could create a more elegant solution. I just did a fetch request for the specific graph JSON that needs to be loaded (planning to add a drop down menu to change which graph is applied later!) and set that to the same variable from before so it wouldn't break anything. I also needed to adjust the architecture to force the page to wait until the JSON data is loaded to try rendering anything, which I didn't realize would be an issue until later on. 
-![The current state of scenelinks after my additions](https://imgur.com/a/pNwTejz)
+![The current state of scenelinks after my additions](https://i.imgur.com/pP2R4w2.png)
 
-![The code snippet that sent me on a wild goose chase](https://https://imgur.com/a/kIG6eId)
+![The code snippet that sent me on a wild goose chase](https://i.imgur.com/VpDvYOu.png)
 
 Also, this isn't entirely related, but both creating this blog post PR and the contribution I am discussing are the first times I've properly done everything (except writing the pr on the github website) all in the CLI. I just got a new laptop and started running Fedora Workstation as my daily driver, so getting everything running and familiarizing myself with the Linux workflow has been a project in its own right.
 
